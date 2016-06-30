@@ -2,7 +2,7 @@
 layout: post
 category : how-to
 tagline: "遷移 Subversion 至 Git"
-tags : [svn, git]
+tags: [how-to, svn, git]
 ---
 
 

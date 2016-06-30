@@ -2,7 +2,7 @@
 layout: post
 category : how-to
 tagline: "在 Ubuntu 上安裝 Docker"
-tags : [docker, ubuntu]
+tags: [how-to, docker, ubuntu]
 ---
 
 # 前情提要
