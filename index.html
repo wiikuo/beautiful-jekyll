@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Wii Kuo
-subtitle: Software Developer
+title: Welcome to 
+subtitle: Wii Kuo's Software Development Lab
 ---
 
 <div class="posts-list">
@@ -22,7 +22,11 @@ subtitle: Software Developer
     </p>
 
     <div class="post-entry">
-      {{ post.content | strip_html | xml_escape | truncatewords: 10 }}
+      {% if post.description %}
+        {{ post.description | strip_html | xml_escape | truncatewords: 50}}
+      {% else %}
+        {{ post.content | strip_html | xml_escape | truncatewords: 10 }}
+      {% endif %}
 	  <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[Read&nbsp;More]</a>
     </div>
 

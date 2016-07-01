@@ -1,7 +1,7 @@
 ---
 layout: post
-category : how-to
-tagline: "遷移 Subversion 至 Git"
+subtitle: "遷移 Subversion 至 Git"
+description: "想要用 Git 但是團隊還在用 SVN 怎麼辦? 其實可以透過 Git 與 SVN 的儲存庫同步，這樣就可以一邊使用 SVN ，一邊使用 Git 了"
 tags: [how-to, svn, git]
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
-category : how-to
-tagline: "在 Ubuntu 上安裝 Docker"
+subtitle: "在 Ubuntu 上安裝 Docker"
+description: "剛灌好了一個 ubuntu Server 15.10 的空機。想說來試試用 Docker。"
 tags: [how-to, docker, ubuntu]
 ---
 
